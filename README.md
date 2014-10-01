@@ -14,4 +14,6 @@ mkdir YourProjectName
 cd YourProjectName  
 mvn archetype:generate -DarchetypeCatalog=local  
   
-
+# Run your project
+cd YourProjectName  
+mvn jetty:run  
